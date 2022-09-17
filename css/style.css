@@ -1,0 +1,33 @@
+.review-card{
+	min-height: 300px;
+}
+.review-card-title{
+	position: relative;
+	padding: 15px 15px 10px 130px;
+	min-height: 120px;
+}
+.review-card-title img{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+.card-body{
+	padding: 1rem 1.2rem;
+}
+
+.carousel-indicators [data-bs-target]{
+	width: 10px;
+    height: 10px;    
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.carousel-indicators .active{
+	background-color: green;
+}
+.carousel-indicators{
+	bottom: auto;
+	top: 105%;
+}
