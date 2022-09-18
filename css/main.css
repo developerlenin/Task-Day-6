@@ -214,26 +214,35 @@ span.number-span{
 .services{
 	width:100%;
 }		
+.services-head h1{
+	text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 65px 0px;
+    font-weight: 500;
+	
+}
 .my-services{
 	width:80%;
 	margin:auto;
 }
 .box-one{  
 	dispaly:flex;
-	width:100%;
+	width:100%;	
 }	
 .box1{
 	position:relative;
 	width:33.33%;
-	height: 200px;
+	height: 224px;
     box-shadow: 0 0 10px rgb(237 230 225);
-	margin: 10px 13px;
+	margin: 22px 13px;
 }
 #hexagon {
   width: 100px;
   height: 57.735px;
   background: red;
   position: relative;
+    margin: 0px 94px;
 }
 #hexagon::before {
   content: "";
@@ -272,11 +281,183 @@ span.number-span{
     padding: 0px 30px;
     line-height: 27px;
     font-family: sans-serif;
+	margin: 30px 0px;
 }
 .box1-text p{
 	font-size: 13px;
     color: rgb(128 128 128);
 }
+
+               /* my experience */
+			   
+			   
+.experience{
+	width:100%;
+}
+.experience-heading h5{
+	text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 65px 0px;
+    font-weight: 500;
+}
+.experience-item{
+	width:80%;
+	margin:auto;
+}
+.experience-item-one{
+	width:70%;
+	margin:auto;
+	display:flex;
+	height: 115px;
+    box-shadow: 0 0 10px rgb(237 230 225);
+	padding: 10px 0px;
+    margin-bottom: 18px
+}
+.date-item{
+	width:40%;
+}
+.experience-text{
+	width:60%;
+}
+.date-item button {
+	margin: 15px 20px;
+    background-color: rgb(255 0 0);
+    border: rgb(0 0 128);
+    color: rgb(245 222 179);
+    padding: 4px 10px;
+    border-radius: 15px;
+}
+.experience-text h1{
+    font-size: 22px;
+    color: rgb(0 0 0);
+    font-family: sans-serif;
+    padding: 15px 0px;
+}
+.experience-text h2{
+	font-size: 14px;
+    color: rgb(128 128 128);
+    line-height: 20px;
+}
+.experience-text p{
+	    font-size: 15px;
+    color: rgb(128 128 128);
+    padding: 0px 6px;
+    line-height: 30px;
+}
+ 
+ 
+           /* my-portfolio */
+.portfolio{
+	width:100%;
+}
+.my-portfolio{
+	width:90%;
+	margin:auto;
+}
+.portfolio-heading h5{
+	text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 65px 0px;
+    font-weight: 500;
+}
+.portfolio-image-one{
+	display:flex;
+}
+.portfolio-box1{
+	width:50%;
+}
+.portfolio-box1{
+	box-shadow: 0 0 10px rgb(237 230 225);
+    background-color: rgb(255 255 255);
+	margin: 5px 5px;
+	border-radius: 10px;
+	width:100%;
+	display:flex;
+}
+
+.portfolio-box1-img{
+	width:55%
+}
+.portfolio-box1-img img{
+	width:100%;
+	border-radius: 10px;
+}
+.portfolio-box1-text{
+	width:45%;
+}
+.portfolio-box1-text  h3:nth-child(1){
+	font-size: 20px;
+    font-family: sans-serif;
+    padding: 11px 20px;
+}
+.portfolio-box1-text  h3:nth-child(2){
+	font-size: 15px;
+    padding: 0px 18px;
+    font-family: emoji;
+    color: rgb(128 128 128);
+}
+.portfolio-box1-text button{
+	box-shadow: 0 0 10px rgb(237 230 225);
+    background-color: rgb(255 255 255);
+    border: rgb(255 222 173);
+    border-radius: 30px;
+    padding: 5px 7px;
+    margin: 8px 17px;
+    font-size: 12px;
+    color: rgb(128 128 128);
+}
+
+                 /* testimonials-section */
+			
+ .testimonials-section{
+	 width:100%;
+ }	
+.testimonials{
+	width:90%;
+	margin:auto;
+} 
+.testimonials-heading h1{
+	text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin: 65px 0px;
+    font-weight: 500;
+}
+.testimonials-box{
+	display:flex;
+	width:100%
+}
+.testimonials-box-one{
+	width:50%;
+	box-shadow: 0 0 10px rgb(237 230 225);
+    background-color: rgb(255 255 255);
+    border: rgb(255 222 173);
+    border-radius: 30px;
+	height:200px;
+	    margin: 0px 10px
+}
+.testimonials-box-one p:nth-child(1){
+	padding: 15px 25px;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(128 128 128);
+	
+}
+.testimonials-box-one p:nth-child(2){
+	    padding: 0px 25px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.testimonials-box-one p:nth-child(3){
+	font-size: 12px;
+    padding: 13px 23px;
+    color: rgb(128 128 128);
+}
+
+
+
 
 
 
