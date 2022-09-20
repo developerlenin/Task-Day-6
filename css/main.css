@@ -220,7 +220,6 @@ span.number-span{
     font-family: sans-serif;
     margin: 65px 0px;
     font-weight: 500;
-	
 }
 .my-services{
 	width:80%;
@@ -686,6 +685,118 @@ span.number-span{
     font-size: 13px;
     color: rgb(128 128 128);
 }
+
+                   /* before after */
+.services-head h1::after{
+	 content: '';
+    background-color: rgb(255 0 0);
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+    margin: 12px 14px;
+}
+.services-head h1::before{
+	 content: '';
+    background-color: rgb(255 0 0);
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+    margin: 12px 14px;
+}
+.experience-heading h5::after{
+	 content: '';
+    background-color: rgb(255 0 0);
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+    margin: 12px 14px;
+}
+.experience-heading h5::before{
+	 content: '';
+    background-color: rgb(255 0 0);
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+    margin: 12px 14px;
+}
+
+.portfolio-heading h5::after{
+	 content: '';
+    background-color: rgb(255 0 0);
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+    margin: 12px 14px;
+}
+.portfolio-heading h5::before{
+	 content: '';
+    background-color: rgb(255 0 0);
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+    margin: 12px 14px;
+}
+.testimonials-heading h1::after{
+	 content: '';
+    background-color: rgb(255 0 0);
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+    margin: 12px 14px;
+}
+.testimonials-heading h1::before{
+	 content: '';
+    background-color: rgb(255 0 0);
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+    margin: 12px 14px;
+}
+.blog-heading p::after{
+	 content: '';
+    background-color: rgb(255 0 0);
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+    margin: 12px 14px;
+}
+.blog-heading p::before{
+	 content: '';
+    background-color: rgb(255 0 0);
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+    margin: 12px 14px;
+}
+.contact-heading h1::after{
+	 content: '';
+    background-color: rgb(255 0 0);
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+    margin: 12px 14px;
+}
+.contact-heading h1::before{
+	 content: '';
+    background-color: rgb(255 0 0);
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+    margin: 12px 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
